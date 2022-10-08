@@ -1,0 +1,73 @@
+body {
+  font-family: "Red Hat Display", sans-serif;
+  /* background-repeat: no-repeat; */
+  background-image: url(./images/pattern-background-mobile.svg);
+  background-color: #f2f2f2;
+  background-size: 100vw;
+  background-repeat: no-repeat;
+}
+
+.main-block {
+  width: 327px;
+}
+
+.ilustration-img {
+  width: 327px;
+}
+
+h1 {
+  font-size: 22px;
+}
+.main-p {
+  width: 260px;
+  color: #717fa6;
+}
+
+.underline {
+    cursor: pointer;
+
+  color: #382ae1;
+}
+
+.price-p {
+  color: #717fa6;
+}
+
+.button-wrapper {
+  width: 279px;
+}
+.btn-blue {
+  background-color: #382ae1;
+  height: 50px;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+}
+
+.btn-blue:active {
+  cursor: pointer;
+  background-color: #766cf1;
+  border: 0;
+  outline: 0;
+}
+
+
+.cancel-btn {
+  cursor: pointer;
+  color: #717fa6;
+}
+
+@media (min-width: 1440px) {
+  body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-color: #f2f2f2;
+    background-repeat: no-repeat;
+  }
+  .ilustration-img {
+    width: 450px;
+  }
+  .main-block {
+    width: 450px;
+  }
+  .buuton-wrapper {
+    width: 354px;
+  }
+}
